@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PlayBoy Music</string>
+    <string name="title_activity_testing">Testing</string>
+    <string name="explore">explore</string>
+    <string name="someone_like_you">Someone Like You</string>
+    <string name="flavour">flavour</string>
+</resources>

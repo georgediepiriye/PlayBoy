@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.android.playboy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/crop"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/crop"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlayListActivity"
+            android:label="Play list"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".NowPlayingActivity"
+            android:label="Now Playing"
+            android:parentActivityName=".PlayListActivity"
+            tools:targetApi="jelly_bean" />
+        <activity
+            android:name=".StoreActivity"
+            android:label="PlayBoy Store "
+            android:parentActivityName=".PlayListActivity"
+            tools:targetApi="jelly_bean" />
+
+    </application>
+
+</manifest>

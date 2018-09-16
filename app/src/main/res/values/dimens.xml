@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="now_playing_song_text_size">25sp</dimen>
+    <dimen name="now_playing_artist_name">15sp</dimen>
+    <dimen name="play_list_downloads_number">9sp</dimen>
+    <dimen name="play_list_artist_name">13sp</dimen>
+</resources>
